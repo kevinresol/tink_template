@@ -27,7 +27,7 @@ class Template {
     
     var id = list.join('_');
     
-    SyntaxHub.frontends.whenever(f, 'tink.Template::$id');
+    // SyntaxHub.frontends.whenever(f, 'tink.Template::$id');
     
     frontends[id] = f;
   }
